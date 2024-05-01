@@ -6,7 +6,7 @@ import Logo from '../assets/images/full-stack.webp';
 
 function Home() {
   return (
-    <div className='bg-slate-200'>
+    <div className="bg-slate-200">
       <Navbar />
       <div className="bg-gray-200 flex justify-center items-center min-h-screen">
         <div className="flex flex-wrap w-full lg:w-3/4">
