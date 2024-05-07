@@ -17,7 +17,7 @@ function Index() {
             Sebastían J. Macharette
           </h1>
           <h2 className="text-2xl text-slate-200 font-bold mb-4 lg:text-right sm:text-center">
-            Full Stack Developer (specialized in FrontEnd)
+            Full Stack Developer (Especializado en FrontEnd)
           </h2>
           <h2 className="text-2xl text-slate-200 font-bold mb-4 lg:text-right sm:text-center">
             Diseñador UX/UI

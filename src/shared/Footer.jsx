@@ -46,7 +46,7 @@ function Footer() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-base font-bold text-black sm:text-center dark:text-white">
-          © {new Date().getFullYear()} Flowbite™ . All Rights Reserved.
+          ©   Sebastian Macharette ™ . All Rights Reserved.
           <br />
           {obtenerFecha()}
         </span>

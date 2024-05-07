@@ -30,7 +30,7 @@ function Home() {
             <div>
               <h2
               className='text-right text-xl lg:mt-1 font-bold text-gray-400'
-              >especializado en FrontEnd</h2>
+              >Especializado en FrontEnd</h2>
             </div>
 
             </div>

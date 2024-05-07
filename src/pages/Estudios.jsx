@@ -13,16 +13,16 @@ import Google3 from "../assets/images/google/Google3.png";
 import Google4 from "../assets/images/google/Google4.png";
 import Google5 from "../assets/images/google/Google5.png";
 import Codo1 from "../assets/images/codo/Codo1.png";
-import TodoCode1 from "../assets/images/todo code/codo1.png";
-import TodoCode2 from "../assets/images/todo code/codo2.png";
+import TodoCode1 from "../assets/images/todocode/codo1.png";
+import TodoCode2 from "../assets/images/todocode/codo2.png";
 import Telefonica1 from "../assets/images/telefonica/Telefonica1.png";
 import Donweb1 from "../assets/images/donweb/Donweb1.png";
 import Donweb2 from "../assets/images/donweb/Donweb2.png";
 import Donweb3 from "../assets/images/donweb/Donweb3.png";
 import Donweb4 from "../assets/images/donweb/Donweb4.png";
 import Donweb5 from "../assets/images/donweb/Donweb5.png";
-import CodigoFacilito1 from "../assets/images/codigo facilito/CodigoFacilito1.png";
-import CodigoFacilito2 from "../assets/images/codigo facilito/CodigoFacilito2.png";
+import CodigoFacilito1 from "../assets/images/codigofacilito/CodigoFacilito1.png";
+import CodigoFacilito2 from "../assets/images/codigofacilito/CodigoFacilito2.png";
 
 function Estudios() {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -77,11 +77,11 @@ function Estudios() {
       <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
+          className={`text-gray-900   border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
           focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
            dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
             dark:focus:ring-gray-800${
-            selectedCategory === "all" ? "bg-blue-700 text-white" : ""
+            selectedCategory === "all" ? "bg-gray-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("all")}
         >
@@ -192,17 +192,16 @@ function Estudios() {
           <div className=" p-4 rounded-lg h-4/5">
             <img src={selectedImage} alt="" className="max-w-full max-h-full" />
             <button
-              type="button"
-              className={`text-gray-700 hover:text-white mt-6 border border-gray-900 bg-white hover:bg-gray-700 
-            focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-2xl
-            text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:border-blue-500 dark:text-blue-500
-             dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800 ${
-               selectedCategory === "all" ? "bg-gray-700 text-white" : ""
-             }`}
-              onClick={() => setSelectedImage(null)}
-            >
-              Close
-            </button>
+  type="button"
+  className={`  border shadow-xl  shadow-gray-700 border-gray-800  mt-4 hover:bg-gray-800 focus:ring-4 
+  focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+   dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
+    dark:focus:ring-gray-800 bg-gray-700 text-white`}
+    onClick={() => setSelectedImage(null)}  
+    >
+  Cerrar
+</button>
+
             
           </div>
         </div>
