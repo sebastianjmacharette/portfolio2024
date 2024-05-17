@@ -21,8 +21,11 @@ function MolachinoViajes() {
 
   return (
     <div>
-      <div className="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-stone- dark:text-white dark:bg-gray-800">
-        <p className="mt-1 text-xl font-normal text-gray-900 dark:text-gray-400">
+      <div className="p-5 text-lg font-semibold text-left rtl:text-right bg-transparent ">
+      <h2
+        className="text-white font-bold text-2xl"
+        >Pagina Principal Molachino Viajes desplegada en servidor</h2>
+        <p className="mt-1 text-xl font-normal text-white">
            Web oficial de Molachino Viajes. Desarrollada con tecnología de vanguardia, la
           plataforma se ha creado utilizando React en el frontend, con la
           incorporación de React Router DOM, garantizando una experiencia de
@@ -42,7 +45,7 @@ function MolachinoViajes() {
         </p>
       </div>
 
-      <div className="bg-gray-200 flex  flex-center justify-center w-full mx-auto mt-4">
+      <div className="bg-transparent flex  flex-center justify-center w-full mx-auto mt-4">
         <div className="grid gap-4 max-w-screen-lg mx-auto">
           {selectedImage === url ? (
             <iframe

@@ -21,8 +21,11 @@ function AtuServicio() {
 
   return (
     <div>
-      <div className="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-stone- dark:text-white dark:bg-gray-800">
-        <p className="mt-1 text-xl font-normal text-gray-900 dark:text-gray-400">
+      <div className="p-5 text-lg font-semibold text-left rtl:text-rightbg-transparent ">
+      <h2
+        className="text-white font-bold text-2xl"
+        >App a tu servicio</h2>
+        <p className="mt-1 text-xl font-normal text-white">
           Presentamos nuestro proyecto Integrador basado en Spring Boot con
           Spring Security, JWT y MySQL, incorporando Thymeleaf para una
           experiencia dinámica. Proporciona a los usuarios una plataforma segura
@@ -37,7 +40,7 @@ function AtuServicio() {
         </p>
       </div>
 
-      <div className="bg-gray-200 flex  flex-center justify-center w-full mx-auto mt-4">
+      <div className="bg-transparent flex  flex-center justify-center w-full mx-auto mt-4">
         <div className="grid gap-4 max-w-screen-lg mx-auto">
           {selectedImage === url ? (
             <iframe

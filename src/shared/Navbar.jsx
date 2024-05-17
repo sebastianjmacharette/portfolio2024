@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FullStack from '../assets/images/full-stack.webp';
+import Logo from '../assets/images/logo.png';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-gray-500 border-gray-200 dark:bg-gray-900">
+      <nav className="bg-transparent border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
           target="_blank"
@@ -17,11 +17,11 @@ function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src={FullStack}
+              src={Logo}
               className="h-10"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl text-black font-bold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl text-white font-bold whitespace-nowrap dark:text-white">
               Portfolio Digital
             </span>
           </a>
@@ -54,31 +54,31 @@ function Navbar() {
           <div
             className={`${
               isOpen ? "block" : "hidden"
-            } w-full bg-gray-500 md:block md:w-auto`}
+            } w-full   md:block md:w-auto`}
             id="navbar-default"
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg
-             bg-gray-500 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0
-              md:bg-gray-500  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0
+               dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li
-                            className="bg-gray-500"
+                            className=" bg-transparent "
 
               >
                 <a
                   href="/home"
-                  className="block py-2 px-3 font-bold text-black text-xl hover:text-white rounded md:bg-transparent
-                   md:p-0 dark:text-white "
+                  className="block py-2 px-3 text-white text-xl hover:text-gray-300 rounded md:bg-transparent
+                  md:p-0 dark:text-white "
                   aria-current="page"
                 >
                   Home
                 </a>
               </li>
               <li
-              className="bg-gray-500"
+              className=" "
               >
                 <a
                   href="/skills"
-                  className="block py-2 px-3 font-bold text-black text-xl hover:text-white rounded md:bg-transparent
+                  className="block py-2 px-3 text-white text-xl hover:text-gray-300 rounded md:bg-transparent
                   md:p-0 dark:text-white "
 
                 >
@@ -86,38 +86,38 @@ function Navbar() {
                 </a>
               </li>
               <li
-                            className="bg-gray-500"
+                            className=" "
 
               >
                 <a
                   href="/estudios"
-                  className="block py-2 px-3 font-bold text-black text-xl hover:text-white rounded md:bg-transparent
-                   md:p-0 dark:text-white "
+                  className="block py-2 px-3 text-white text-xl hover:text-gray-300 rounded md:bg-transparent
+                  md:p-0 dark:text-white"
 
                 >
                   Estudios
                 </a>
               </li>
               <li
-                            className="bg-gray-500"
+                            className=" "
 
               >
                 <a
                   href="/proyectos"
-                  className="block py-2 px-3 font-bold text-black text-xl hover:text-white rounded md:bg-transparent
-                  md:p-0 dark:text-white "
+                  className="block py-2 px-3 text-white text-xl hover:text-gray-300 rounded md:bg-transparent
+                  md:p-0 dark:text-white"
 
                 >
                   Proyectos
                 </a>
               </li>
               <li
-                            className="bg-gray-500"
+                            className=" "
 
               >
                 <a
                   href="/contacto"
-                  className="block py-2 px-3 text-black text-xl hover:text-white rounded md:bg-transparent
+                  className="block py-2 px-3 text-white text-xl hover:text-gray-300 rounded md:bg-transparent
                   md:p-0 dark:text-white "
 
                 >

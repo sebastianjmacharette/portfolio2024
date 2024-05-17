@@ -21,8 +21,11 @@ function SistemaMedicoSwing() {
 
   return (
     <div>
-      <div className="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-stone- dark:text-white dark:bg-gray-800">
-        <p className="mt-1 text-xl font-normal text-gray-900 dark:text-gray-400">
+      <div className="p-5 text-lg font-semibold text-left  ">
+        <h2
+        className="text-white font-bold text-2xl"
+        >Sistema Gestión Pacientes Java Swing</h2>
+        <p className="mt-1 text-xl font-normal text-white">
           El Sistema de Gestión de Pacientes, desarrollado en Java Swing, ofrece
           una solución completa para administrar pacientes. Utiliza una base de
           datos SQLite sincronizada con Google Drive para garantizar la
@@ -30,6 +33,8 @@ function SistemaMedicoSwing() {
           instalación, cuenta con una interfaz amigable y sólida. Destaca por
           generar informes PDF detallados con Apache PDFBox, lo que lo convierte
           en una herramienta valiosa para entornos médicos.
+          <br />
+          <br />
           <a
           target="blank_"
           href="https://github.com/sebastianjmacharette/sistema-consultas-medicas-java-swing-.git"
@@ -38,7 +43,7 @@ function SistemaMedicoSwing() {
         </p>
       </div>
 
-      <div className="bg-gray-200 flex  flex-center justify-center w-full mx-auto mt-4">
+      <div className="bg-transparent  flex  flex-center justify-center w-full mx-auto mt-4">
         <div className="grid gap-4 max-w-screen-lg mx-auto">
           {selectedImage === url ? (
             <iframe

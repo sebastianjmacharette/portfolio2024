@@ -71,16 +71,16 @@ function Estudios() {
       : images.filter((image) => image.category === selectedCategory);
 
   return (
-    <div className="bg-slate-200">
+    <div className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">
       <Navbar />
 
       <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
         <button
           type="button"
-          className={`text-gray-900   border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white${
             selectedCategory === "all" ? "bg-gray-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("all")}
@@ -89,10 +89,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white ${
             selectedCategory === "Egg" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("Egg")}
@@ -101,10 +101,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white ${
             selectedCategory === "CodoAcodo" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("CodoAcodo")}
@@ -113,10 +113,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white ${
             selectedCategory === "Google" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("Google")}
@@ -125,10 +125,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white${
             selectedCategory === "TodoCode" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("TodoCode")}
@@ -137,10 +137,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white${
             selectedCategory === "Telefonica" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("Telefonica")}
@@ -149,10 +149,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white ${
             selectedCategory === "Donweb" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("Donweb")}
@@ -161,10 +161,10 @@ function Estudios() {
         </button>
         <button
           type="button"
-          className={`text-white  hover:text-white border shadow-xl  shadow-gray-700 border-gray-800 bg-gray-500 hover:bg-gray-800 focus:ring-4 
-          focus:outline-none focus:ring-gray-500 rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
-           dark:border-gray-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900
-            dark:focus:ring-gray-800 ${
+          className={`text-white   border shadow-xl  shadow-gray-700 border-gray-800   hover:bg-indigo-400 focus:ring-4 
+          focus:outline-none focus:ring-white rounded-2xl  text-base font-medium px-5 py-2.5 text-center me-3 mb-3
+          bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+            dark:focus:ring-white ${
             selectedCategory === "CodigoFacilito" ? "bg-blue-700 text-white" : ""
           }`}
           onClick={() => setSelectedCategory("CodigoFacilito")}

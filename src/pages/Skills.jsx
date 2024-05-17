@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../shared/Navbar";
 import Footer from "../shared/Footer";
-import Logo from '../assets/images/full-stack.webp';
+import Logo from '../assets/images/logo.png';
 import Image1 from '../assets/images/skills/Image1.png';
 import Image2 from '../assets/images/skills/Image2.png';
 import Image3 from '../assets/images/skills/Image3.png';
@@ -77,13 +77,13 @@ function Skills() {
     Image35
   ];
   return (
-    <div className="bg-slate-200">
+    <div className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">
       <Navbar />
       <div className="w-full flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 p-4">
           {/* Contenido del primer div */}
           <div data-aos="fade-right">
-            <p className="lg:text-right sm:text-center lg:text-xl sm:text-base text-gray-600">
+            <p className="lg:text-right sm:text-center lg:text-xl sm:text-base text-slate-100">
               Me especializo en la creación de <span className="font-bold">experiencias digitales únicas y
               personalizadas</span>  que se adaptan a las necesidades específicas de
               misclientes. Poseo experiencia en el desarrollo completo
@@ -96,7 +96,7 @@ function Skills() {
         <div className="w-full lg:w-1/2 p-4">
           {/* Contenido del segundo div */}
           <div data-aos="fade-left">
-            <p className="lg:text-left sm:text-center lg:text-xl sm:text-base text-gray-500">
+            <p className="lg:text-left sm:text-center lg:text-xl sm:text-base text-slate-100">
               Mi conocimiento profundo de  <span className="font-bold">frameworks como React y Spring Boot</span> me
               permite diseñar soluciones innovadoras y eficientes que
               añaden valor a cada proyecto que emprendo. Mi compromiso radica
@@ -111,11 +111,10 @@ function Skills() {
         <img className="h-20" src={Logo} alt="" />
         
       </div>
-      <div className=" flex flex-center justify-center lg:mt-10 lg:mb-10 sm:mt-4 sm:mn-4">
-      <h2
-      className="text-gray-600 text-4xl font-bold underline"
-      >Skills</h2>
-      </div>
+      <div className="flex lg:justify-start sm:justify-center lg:mt-10 lg:mb-10 sm:mt-4 sm:mn-4">
+  <h2 className="ml-10 text-slate-100 text-4xl font-bold underline lg:text-left sm:text-center">Skills</h2>
+</div>
+
       <div className="flex flex-wrap justify-center">
         {images.map((image, index) => (
           <div key={index} className="p-2">
@@ -124,36 +123,40 @@ function Skills() {
           </div>
         ))}
       </div>
-      <div className=" flex flex-center justify-center lg:mt-10 lg:mb-10 sm:mt-4 sm:mn-4">
-      <h2
-      className="text-gray-600 text-4xl font-bold underline"
-      >Soft Kills</h2>
-      </div>
+      <div className="flex lg:justify-start sm:justify-center lg:mt-10 lg:mb-10 sm:mt-4 sm:mn-4">
+  <h2 className="ml-10 text-slate-100 text-4xl font-bold underline lg:text-left sm:text-center">Soft Skills</h2>
+</div>
+
+
       <div  className="flex flex-wrap justify-center lg:mb-10">
-  <span  className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Comunicación efectiva</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Trabajo en equipo</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Empatía</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Inteligencia emocional</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Adaptabilidad</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Creatividad</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Pensamiento crítico</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Gestión del tiempo</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Liderazgo</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Colaboración</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Adaptabilidad</span>
-  <span className="bg-gray-300 text-gray-600 text-xl font-medium me-2 px-2.5 py-0.5 rounded
-     dark:bg-gray-700 dark:text-gray-400 border border-gray-800 m-4">Empatía cultural</span>
+      <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">
+  Comunicación efectiva
+</span>
+
+
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Trabajo en equipo</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Empatía</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Inteligencia emocional</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Adaptabilidad</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Creatividad</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Pensamiento crítico</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Gestión del tiempo</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Liderazgo</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Colaboración</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Adaptabilidad</span>
+  <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% 
+  text-white rounded-2xl text-xl font-medium me-2 px-2.5 py-0.5   border-2 border-white m-4">Empatía cultural</span>
 </div>
 
       <Footer />
